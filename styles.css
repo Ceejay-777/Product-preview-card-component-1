@@ -9,10 +9,9 @@
 	--neutralGreyBlue: hsl(228, 12%, 48%);
 	--fontSizePara: 14px;
 }
+
 body {
 	background: var(--primaryCream);
-	width: 375px;
-	border-right: 1px solid black;
 }
 
 * {
@@ -26,9 +25,7 @@ body {
 	background: white;
 	width: 90%;
 	margin: 30px auto;
-	border: 1px solid black;
-	border-radius: 20px;
-	/*margin-top: 20px;*/
+	border-radius: 10px;
 }
 
 .fraunces {
@@ -37,19 +34,122 @@ body {
 
 .product-image {
 	width: 100%;
-	overflow: hidden;
-	border-top-right-radius: inherit;
-	border-top-left-radius: inherit;
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
 }
+
+.contents {
+	width: 90%;
+	margin: auto auto;
+}
+
 
 .product-type {
 	font-size: 14px;
-	font-weight: 500px;
-	color: var(--neutralGreyBlue)
+	color: var(--neutralGreyBlue);
+	letter-spacing: 5px;
+	text-transform: uppercase;
+	font-family: "Montserrat";
+	margin-top: 10px;
 }
 
-p {
+.product-name {
+	font-size: 30px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	color: var(--neutralDarkBlue);
+	line-height: 30px;
+}
+
+.product-description {
 	font-family: 'Montserrat', sans-serif;
+	color: var(--neutralGreyBlue);
+	font-size: var(--fontSizePara);
+	line-height: 20px;
+	margin-bottom: 10px;
+}
+
+.prices {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	text-align: center;
+}
+
+.price {
+	color: var(--primaryCyan);
+	font-size: 30px;
+}
+
+.discount {
+	margin-left: 25px;
+	margin-right: auto;
+	font-family: "Montserrat", sans-serif;
+	color: var(--neutralGreyBlue);
+	font-size: 14px;
+	text-decoration-line: line-through;
+}
+
+.btn {
+	width: 95%;
+	height: 50px;
+	background-color: var(--primaryCyan);
+	font-family: "Montserrat", sans-serif;
+	color: white;
+	font-style: bold;
+	border: none;
+	border-radius: 5px;
+	margin-top: 20px;
+	margin-bottom: 30px;
+	margin-right: 2.5%;
+	margin-left: 2.5%;
+}
+
+.btn:hover {
+	background-color: var(--neutralDarkBlue);
+	cursor: pointer;
+}
+
+@media screen and (min-width: 641px){
+
+	.main {
+		height: 80vh;
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		width: 640px;
+	}
+
+	.product-image {
+		content: url(images/image-product-desktop.jpg);
+		height: 80vh;
+		border-top-right-radius: 0px;
+		border-top-left-radius: 10px;
+		border-bottom-left-radius: 10px;
+	}
+
+	.contents {
+		width: 80%;
+		height: 90%;
+		margin: auto;
+	}
+
+	.product-type {
+		margin-bottom: 20px;
+	}
+
+	.product-name {
+		margin-bottom: 25px;
+	}
+
+	.product-description {
+		padding-bottom: 20px;
+	}
+
+	.btn {
+		margin-top;
+		margin-bottom: 0px;
+	}
+
 }
 
 .attribution { 
@@ -61,7 +161,3 @@ p {
 	color: hsl(228, 45%, 44%);
 }
 
-.contents {
-	width: 80%;
-	margin: auto auto;
-}
