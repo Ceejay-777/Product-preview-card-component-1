@@ -26,14 +26,11 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
-
-
+![](./product_card.jpg)
 
 ### Links
-
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Solution](https://github.com/Ceejay-777/Product-preview-card-component-1)
+- Live Site URL: [Live site](https://ceejay-777.githib.io/Product-preview-card-component-1)
 
 ## My process
 
@@ -43,36 +40,9 @@ Users should be able to:
 - CSS custom properties
 - Flexbox
 - CSS Grid
-- Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
 
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
 
 ### What I learned
-
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
-
-To see how you can add code snippets, see below:
-
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
-
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
-**Note: Delete this note and the content within this section and replace with your own learnings.**
 
 - I've learnt the exact use of the viewport metatag. I hd been using it without understanding it before now.
 
@@ -80,7 +50,7 @@ If you want more help with writing markdown, we'd recommend checking out [The Ma
 ```html
 	<picture></picture>
 ```
-	The picture tag isn't working as expected.
+  The picture tag isn't working as expected.
 
 - I have finally opted for just the 
 ```html 
